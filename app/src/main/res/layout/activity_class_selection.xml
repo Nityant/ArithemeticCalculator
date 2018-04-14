@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context="com.arithemeticcalculator.arithemeticcalculator.Activities.ClassSelectionActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:elevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Class"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
 </RelativeLayout>
